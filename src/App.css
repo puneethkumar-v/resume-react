@@ -1,0 +1,75 @@
+.app {
+  max-width: 1460px;
+  width: 100%;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+.header,
+.degree,
+.skillset {
+  display: flex;
+  justify-content: space-between;
+}
+
+.objective {
+  max-width: 50rem;
+}
+
+.education,
+.projects,
+.header,
+.objective,
+.skills {
+  margin-bottom: 1.5rem;
+  padding: 2rem 0;
+}
+
+.objective h2,
+.education h2,
+.projects h2,
+.skills h2 {
+  margin-bottom: 1.2rem;
+}
+
+.degree {
+  margin-bottom: 0.5rem;
+}
+.educationList h3,
+.projectList h3,
+.skillList h3 {
+  margin-bottom: 0.5rem;
+}
+.educationList,
+.skillset {
+  margin-bottom: 2rem;
+  max-width: 70rem;
+}
+.projectList {
+  margin-bottom: 3rem;
+  max-width: 80rem;
+}
+
+.educationList:last-child,
+.projectList:last-child {
+  margin-bottom: 0;
+}
+
+.projectList {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+.row-reverse {
+  margin: 0 0 0 auto;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 600px) {
+  .header,
+  .degree,
+  .skillset {
+    flex-direction: column;
+  }
+}
