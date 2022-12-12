@@ -11,8 +11,8 @@ export default class Projects extends Component {
     return (
       <div className="projects">
         <h2>Projects</h2>
-        {this.state.map((project) => (
-          <ProjectList project={project} />
+        {this.state.map((project, id) => (
+          <ProjectList project={project} key={id} />
         ))}
       </div>
     );

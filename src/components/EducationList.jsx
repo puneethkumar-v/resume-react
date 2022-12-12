@@ -9,11 +9,11 @@ const EducationList = ({ education }) => {
       </div>
       <h3>{education.college}</h3>
       <ul>
-        {education.about.map((list) => (
-          <>
+        {education.about.map((list, id) => (
+          <div key={id}>
             <li>{list.course}</li>
             <li>{list.cgpa ? list.cgpa : null}</li>
-          </>
+          </div>
         ))}
       </ul>
     </div>
