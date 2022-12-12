@@ -13,7 +13,9 @@ export default class Header extends Component {
           </address>
           <p>7975886469</p>
           <p>pk.puni872@gmail.com</p>
-          <a href="github.com/puneethkumar-v">Github: puneethkumar-v</a>
+          <p>
+            Github: <a href="github.com/puneethkumar-v">puneethkumar-v</a>
+          </p>
         </div>
       </div>
     );
