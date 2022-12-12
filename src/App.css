@@ -72,4 +72,7 @@
   .skillset {
     flex-direction: column;
   }
+  .skillList {
+    margin-bottom: 1.5rem;
+  }
 }
